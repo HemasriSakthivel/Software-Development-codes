@@ -1,0 +1,145 @@
+about.html
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="about-heading">About</h1>
+    <p id="description">Hello I am Justin! from ECE!!</p>
+</body>
+</html>
+
+index.html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="heading">Navigate to Different Web Pages</h2>
+    <a href="./login.html" id="login">Login</a>
+    <br>
+    <a href="./table.html" id="table">Table</a>
+    <br>
+    <a href="./about.html" id="about">About</a>
+    <br>
+</body>
+</html>
+
+login.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+        <label for="fname">Name:</label>
+    <input type="text" id="fname">
+    <br>
+    <label for="fpass">Password:</label>
+    <input type="text" id="fpass">
+    <br>
+    <label for="femail">Email:</label>
+    <input type="text" id="femail">
+    <br>
+    <label for="course">Courses:</label>
+    <select id="course">
+        <option value="volvo">Computer</option>
+    </select>
+ <br>
+ <label for="femail">Address:</label>
+ <input type="textarea" id="address">
+<br>
+<label for="datalist">Country:</label>
+<input type="textarea" id="countries">
+<br>
+<button>SUBMIT</button>
+    </form>
+
+
+</body>
+</html>
+
+table.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1 id="heading">TABLES AND LISTS</h1>
+    <table id="table-1">
+        <tr>
+          <th>Rollno</th>
+          <th>Name</th>
+          <th>Course</th>
+          <th>Dept</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>Canada</td>
+          <td>CSE</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>Italy</td>
+          <td>CSE</td>
+        </tr>
+      </table>
+      <h2 id="courses"></h2>
+      <ul id="list-1">
+        <li>CS</li>
+        <li>CS</li>
+        <li>CS</li>
+        <li>CS</li>
+      </ul>
+</body>
+</html>
